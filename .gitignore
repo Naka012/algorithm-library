@@ -1,0 +1,16 @@
+# Compiled binaries / objects
+*.o
+*.out
+*.exe
+a.out
+*.gch
+*.pch
+
+# Windows metadata
+*:Zone.Identifier
+*_Zone.Identifier
+
+# Debug / editor
+.vscode/
+*.swp
+.DS_Store
