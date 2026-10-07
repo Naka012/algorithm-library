@@ -1,38 +1,14 @@
 // (⁠◕⁠ᴗ⁠◕⁠✿⁠)
 
-// #pragma GCC target("avx2")
-// #pragma GCC optimize("O3")
-// #pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
 #define rep(i, n) for (ll i = 0; i < (n); i++)
-#define srep(i, s, n) for (ll i = s; i < (n); i++)
-#define len(x) ((int)(x).size())
-#define all(x) (x).begin(), (x).end()
 using namespace std;
-template<typename T> using vc = vector<T>;
-template<typename T> using vv = vc<vc<T>>;
-template<typename T> using vvv = vv<vc<T>>;
-using vi = vc<int>;using vvi = vv<int>; using vvvi = vv<vi>;
-using ll = long long;using vl = vc<ll>;using vvl = vv<ll>; using vvvl = vv<vl>;
-using ld = long double; using vld = vc<ld>; using vvld = vc<vld>; using vvvld = vc<vvld>;
-using uint = unsigned int;
-using ull = unsigned long long;
-const ld pi = 3.141592653589793;
-const int inf = 0x3f3f3f3f;
-const ll INF = 0x3f3f3f3f3f3f3f3f;
-// const ll mod = 1000000007;
-const ll mod = 998244353;
-inline bool inside(ll y, ll x, ll H, ll W) {return 0 <= (y) and (y) < (H) and 0 <= (x) and (x) < (W); }
-
-#define debug(var)  do{std::cout << #var << " : \n";view(var);}while(0)
-template<typename T> void view(T e){cout << e << endl;}
-template<typename T> void view(const vc<T>& v){for(const auto& e : v){ cout << e << " "; } cout << endl;}
-template<typename T> void view(const vv<T>& vv){ for(const auto& v : vv){ view(v); } }
+using ll = long long;
 
 struct UnionFind {
     public : 
         UnionFind(int n) : _n(n){
-            root = vi(_n, -1);
+            root = vector<int>(_n, -1);
         }
 
         int find(int x){
@@ -62,13 +38,13 @@ struct UnionFind {
             return ret;
         }
 
-        vvi groups(){
-            vi leader_buf(_n), group_size(_n);
+        vector<vector<int>> groups(){
+            vector<int> leader_buf(_n), group_size(_n);
             for (int i = 0; i < _n; i++) {
                 leader_buf[i] = find(i);
                 group_size[leader_buf[i]]++;
             }
-            vvi result(_n);
+            vector<vector<int>> result(_n);
             for (int i = 0; i < _n; i++) {
                 result[i].reserve(group_size[i]);
             }
@@ -76,12 +52,12 @@ struct UnionFind {
                 result[leader_buf[i]].push_back(i);
             }
             result.erase(
-                remove_if(result.begin(), result.end(), [&](const vi& v) { return v.empty(); }), result.end());
+                remove_if(result.begin(), result.end(), [&](const vector<int>& v) { return v.empty(); }), result.end());
             return result;
         }
     private :
         int _n;
-        vi root;
+        vector<int> root;
 };
 
 struct tests{
@@ -92,13 +68,13 @@ struct tests{
     }
     int randint(int a, int b) {return(a + randxor() % (b - a));}
 
-    vi randv(int N, int l, int r){
-        vi ret(N); rep(i, N) ret[i] = randint(l, r);
+    vector<int> randv(int N, int l, int r){
+        vector<int> ret(N); rep(i, N) ret[i] = randint(l, r);
         return ret;
     }
 
-    vi randp(int N){
-        vi P(N); rep(i, N) P[i] = i + 1;
+    vector<int> randp(int N){
+        vector<int> P(N); rep(i, N) P[i] = i + 1;
         rep(i, N * N){
             int x = randint(0, N), y = randint(0, N);
             swap(P[x], P[y]);
@@ -106,9 +82,9 @@ struct tests{
         return P;
     }
 
-    vvi randtree(int N){
+    vector<vector<int>> randtree(int N){
         UnionFind uf(N);
-        vvi g(N);
+        vector<vector<int>> g(N);
         int edge = 0;
         while (edge < N - 1){
             int u = randint(0, N), v = randint(0, N);
@@ -122,9 +98,9 @@ struct tests{
         return g;
     }
 
-    vvi randg(int N, int M){
+    vector<vector<int>> randg(int N, int M){
         set<pair<int, int>> edges;
-        vvi g(N);
+        vector<vector<int>> g(N);
         rep(i, M){
             int u = randint(0, N), v = randint(0, N);
             while (true){
