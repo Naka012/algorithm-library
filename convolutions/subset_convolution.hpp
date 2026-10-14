@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/convolutions/subset_convolution.hpp
+
 template<class T> vector<T> and_zeta(vector<T> A){
     int N = 0;
     while (1 << N < (int)A.size()) N++;

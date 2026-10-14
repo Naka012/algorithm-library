@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/math_else/compress.hpp
+
 template<class T> vector<T> compress(vector<T> &A){
     map<T, int> cnt;
     vector<T> tmp = A, ret((int)A.size());

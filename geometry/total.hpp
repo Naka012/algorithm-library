@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/geometry/total.hpp
+
 typedef double D;
 typedef complex<D> P;  // Point
 typedef pair<P, P> L;  // Line

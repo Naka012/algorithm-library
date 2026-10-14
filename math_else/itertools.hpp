@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/math_else/itertools.hpp
+
 //重複組み合わせ [0, N) の数 選ぶ個数はlen(A)に依存
 
 bool next_homogeneous_product(int N, vector<int> &A){

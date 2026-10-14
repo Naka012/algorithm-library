@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/lazysegtree.hpp
+
 template <class S,
           S (*op)(S, S),
           S (*e)(),

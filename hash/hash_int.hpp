@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/hash/hash_int.hpp
+
 const unsigned long long MOD = (1ull << 61) - 1;
 const unsigned long long base = 20200213;
 struct hint{

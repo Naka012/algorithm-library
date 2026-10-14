@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/rerooting.hpp
+
 /*
 merge -> merge children
 f1 -> (already merged -> parent can merge)

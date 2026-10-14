@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/extra_gcd.hpp
+
 /*
 ax + by = gcd(a, b) なる x, y
 

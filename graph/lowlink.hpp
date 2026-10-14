@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/lowlink.hpp
+
 struct lowlink {
     const vector<vector<int>> &g;
     vector<int> parent, ord, low, ap, connected_comp_diff;

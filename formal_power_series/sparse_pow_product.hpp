@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/sparse_pow_product.hpp
+
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;
     int val;

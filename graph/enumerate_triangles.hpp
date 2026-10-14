@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/enumerate_triangles.hpp
+
 vector<tuple<int, int, int>> enumerate_triangles(vector<vector<int>> &g){
     vector<tuple<int, int, int>> ret;
     int N = (int)g.size();

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/eratosthenes.hpp
+
 vector<int> eratosthenes(int t){
     vector<int> is_prime(t + 1, 1);
     is_prime[0] = 0; is_prime[1] = 0;

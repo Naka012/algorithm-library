@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/fastertool.hpp
+
 /*
 pow
 */

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/RAQ_fenwick_tree.hpp
+
 template<class T> struct raq_fenwick_tree {
     public : 
         raq_fenwick_tree(int n) : _n(n) {

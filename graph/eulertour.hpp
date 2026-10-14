@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/eulertour.hpp
+
 /*
 depth_euler : オイラーツアーの順番で回った時の頂点の深さの列
 place : その頂点がdepthの何番目にいるか 必ず二つ入っている

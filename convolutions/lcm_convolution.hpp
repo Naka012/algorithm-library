@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/convolutions/lcm_convolution.hpp
+
 vector<bool> eratosthenes(int t){
     vector<bool> is_prime(t + 1, true);
     is_prime[0] = false; is_prime[1] = false;

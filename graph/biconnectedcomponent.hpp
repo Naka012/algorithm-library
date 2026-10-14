@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/biconnectedcomponent.hpp
+
 struct BiconnectedComponent {
     vector<int> ord, low;
     vector<int> used;

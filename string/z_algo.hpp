@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/string/z_algo.hpp
+
 vector<int> z_algo(string &S){
     int N = (int)S.size();
     vector<int> Z(N);

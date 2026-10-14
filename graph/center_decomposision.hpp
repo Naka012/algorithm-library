@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/center_decomposision.hpp
+
 int N;
 vector<bool> used(N, false);
 

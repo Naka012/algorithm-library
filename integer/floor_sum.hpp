@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/floor_sum.hpp
+
 ll floor_sum(ll n, ll m, ll a, ll b) {
     ll ret = 0;
     if (a >= m) {

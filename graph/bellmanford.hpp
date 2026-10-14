@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/bellmanford.hpp
+
 vector<ll> bellmanford(int s, int N, vector<vector<pair<int, ll>>> &g){
     const ll INF = 0x3f3f3f3f3f3f3f3f;
     vector<ll> dist(N, INF);

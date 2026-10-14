@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/cartesiantree.hpp
+
 template <typename T> pair<vector<vector<int>>, int> cartesiantree(vector<T> &a) {
     int N = (int)a.size();
     vector<vector<int>> g(N);

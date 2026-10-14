@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/LCA.hpp
+
 struct LCA {
     public : 
         LCA(vector<vector<int>> &_g) : g(_g){

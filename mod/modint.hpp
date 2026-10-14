@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/mod/modint.hpp
+
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;
     int val;

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/crt.hpp
+
 /*
 return min(x) s.t. x = a (mod1) && x = b (mod2)
 */

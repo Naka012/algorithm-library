@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/dynamicsegtree.hpp
+
 template<class T, T (*op)(T, T), T (*e)()> struct DynamicSegtree{
     public : 
         DynamicSegtree(ll n) : _n(n){

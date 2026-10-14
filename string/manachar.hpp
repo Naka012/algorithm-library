@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/string/manachar.hpp
+
 vector<int> manachar(string s){
     int n = (int)s.size();
     vector<int> rad(n);

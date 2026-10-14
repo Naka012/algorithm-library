@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/segtree.hpp
+
 /*
 segtree<ll , op, e> st(N);
 

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/taylor_shift.hpp
+
 /* f(x) -> f(x + c)*/
 
 template<int MOD> struct modint {

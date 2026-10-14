@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/convolutions/998244353convolution.hpp
+
 template<ll Mod> struct modint {
     ll val;
     using mint = modint;

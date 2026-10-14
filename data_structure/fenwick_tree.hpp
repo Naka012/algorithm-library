@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/fenwick_tree.hpp
+
 template<class T> struct fenwick_tree {
     public : 
         fenwick_tree(int n) : _n(n) {

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/twoD_segtree.hpp
+
 template<class T, T (*op)(T, T), T (*e)()> struct twoD_segtree{
     public : 
         twoD_segtree(int h, int w) : _h(h){

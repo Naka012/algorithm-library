@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/template/template.hpp
+
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

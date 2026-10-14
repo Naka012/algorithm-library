@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/convolutions/xor_convolution.hpp
+
 template<class T> vector<T> Hadamard_Transform(vector<T> &A){
     int L = (int)A.size();
     T h = 1;

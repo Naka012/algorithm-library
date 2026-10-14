@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/mincost_flow.hpp
+
 struct mincost_flow{
     public : 
         static constexpr ll INF = 0x3f3f3f3f3f3f3f3f;

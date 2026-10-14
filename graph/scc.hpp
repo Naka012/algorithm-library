@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/scc.hpp
+
 /*
 scc : 強連結成分分解
 add : 辺追加

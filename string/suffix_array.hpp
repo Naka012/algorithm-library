@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/string/suffix_array.hpp
+
 struct SuffixArray {
     string S;
     vector<int> arr;

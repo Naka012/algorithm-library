@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/hld.hpp
+
 /*
 hld.id(v) -> seg等に乗っけるidを返す
 prod -> seg等で必要な区間の集合を返す

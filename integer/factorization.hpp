@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/factorization.hpp
+
 /*
 素因数分解
 O(sqrt N)

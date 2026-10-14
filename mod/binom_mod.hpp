@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/mod/binom_mod.hpp
+
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;
     int val;

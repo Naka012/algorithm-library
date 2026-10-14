@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/hash/rolling_hash.hpp
+
 const unsigned long long MOD = (1ull << 61) - 1;
 struct rolling_hash {
     public : 

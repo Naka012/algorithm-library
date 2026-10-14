@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/sparse_table.hpp
+
 /*
 sparse_table
 (min max lcm gcd)

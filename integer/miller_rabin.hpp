@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/integer/miller_rabin.hpp
+
 /*
 miller rabin primality test
 O((log N) ** 4) ?

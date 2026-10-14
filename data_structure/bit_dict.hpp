@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/bit_dict.hpp
+
 // ばぐってます
 
 struct bit_dict {

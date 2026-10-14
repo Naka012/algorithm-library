@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/convolutions/convolution.hpp
+
 ll pow_mod(ll a, ll d, ll m){
 
     ll ret = 1;

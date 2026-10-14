@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/max_flow.hpp
+
 struct max_flow{
     public :
         max_flow(int N) : _n(N){

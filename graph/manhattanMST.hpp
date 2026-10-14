@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/manhattanMST.hpp
+
 /*
 頂点が平面上にあり、マンハッタン距離を辺の重みにしたときの
 最小全域木 の候補辺列挙

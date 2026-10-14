@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/graph/euler_tour.hpp
+
 struct ET {
     public : 
         ET(vector<vector<int>> _g) : g(_g){

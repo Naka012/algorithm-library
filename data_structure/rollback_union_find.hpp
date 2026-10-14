@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/rollback_union_find.hpp
+
 struct RollbackUnionFind{
     public : 
         RollbackUnionFind(int n) : _n(n){

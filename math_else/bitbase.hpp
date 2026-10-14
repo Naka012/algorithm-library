@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/math_else/bitbase.hpp
+
 struct bitbase {
     public :
         bitbase(int _k) : k(_k) {

@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/data_structure/union_find.hpp
+
 struct UnionFind {
     public : 
         UnionFind(int n) : _n(n){

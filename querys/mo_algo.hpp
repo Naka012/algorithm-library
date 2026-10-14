@@ -1,3 +1,5 @@
+// https://github.com/Naka012/algorithm-library/blob/main/querys/mo_algo.hpp
+
 /*
 mo mo
 O(???)
