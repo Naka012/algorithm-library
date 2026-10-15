@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/data_structure/lazysegtree.hpp
+// 出典: https://github.com/atcoder/ac-library/blob/v1.3/atcoder/lazysegtree.hpp
 
 template <class S,
           S (*op)(S, S),

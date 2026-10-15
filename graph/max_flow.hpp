@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/graph/max_flow.hpp
+// 出典 (bfs, dfs, flow): プログラミングコンテストチャレンジブック 第2版 (秋葉拓哉・岩田陽一・北川宜稔)
 
 struct max_flow{
     public :

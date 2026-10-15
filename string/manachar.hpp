@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/string/manachar.hpp
+// 参考: https://snuke.hatenablog.com/entry/2014/12/02/235837
 
 vector<int> manachar(string s){
     int n = (int)s.size();

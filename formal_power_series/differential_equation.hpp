@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/differential_equation.hpp
+// 参考: https://github.com/maspypy/library/blob/8214a57a17d98155085eab33064b6115e12c85f1/poly/sparse_FODE.hpp
 
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;

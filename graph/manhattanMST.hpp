@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/graph/manhattanMST.hpp
+// 出典: https://github.com/ei1333/library/blob/master/graph/mst/manhattan-mst.hpp
 
 /*
 頂点が平面上にあり、マンハッタン距離を辺の重みにしたときの

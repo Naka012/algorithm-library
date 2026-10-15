@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/string/suffix_array.hpp
+// 参考: プログラミングコンテストチャレンジブック 第2版 (秋葉拓哉・岩田陽一・北川宜稔)
 
 struct SuffixArray {
     string S;

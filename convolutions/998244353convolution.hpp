@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/convolutions/998244353convolution.hpp
+// 出典 (fft, fft_inv): https://github.com/atcoder/ac-library/blob/v1.3/atcoder/convolution.hpp
 
 template<ll Mod> struct modint {
     ll val;

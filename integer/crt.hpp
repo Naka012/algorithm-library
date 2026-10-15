@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/integer/crt.hpp
+// 参考 (crt): https://github.com/atcoder/ac-library/blob/v1.3/atcoder/math.hpp
 
 /*
 return min(x) s.t. x = a (mod1) && x = b (mod2)

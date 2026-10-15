@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/string/z_algo.hpp
+// 出典: https://snuke.hatenablog.com/entry/2014/12/03/214243
 
 vector<int> z_algo(string &S){
     int N = (int)S.size();

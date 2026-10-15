@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/hash/rolling_hash.hpp
+// 参考 (hint::operator*): https://qiita.com/keymoon/items/11fac5627672a6d6a9f6
 
 const unsigned long long MOD = (1ull << 61) - 1;
 struct rolling_hash {

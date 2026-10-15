@@ -1,4 +1,6 @@
 // https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/sparse_pow_product.hpp
+// 出典 (sparse_pow_product): https://github.com/maspypy/library/blob/8214a57a17d98155085eab33064b6115e12c85f1/poly/sparse_pow_product.hpp
+// 参考 (differential_equation): https://github.com/maspypy/library/blob/8214a57a17d98155085eab33064b6115e12c85f1/poly/sparse_FODE.hpp
 
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;

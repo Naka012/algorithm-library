@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/hash/hash_int.hpp
+// 参考 (operator*): https://qiita.com/keymoon/items/11fac5627672a6d6a9f6
 
 const unsigned long long MOD = (1ull << 61) - 1;
 const unsigned long long base = 20200213;

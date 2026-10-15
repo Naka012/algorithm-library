@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/graph/biconnectedcomponent.hpp
+// 参考: https://github.com/ei1333/library/blob/6ec5848a69c29c538c9b97500356dc60879781a6/graph/bi-connected-components.cpp
 
 struct BiconnectedComponent {
     vector<int> ord, low;

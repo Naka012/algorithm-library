@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/geometry/total.hpp
+// 出典: https://dai1741.github.io/maximum-algo-2012/cpp/geometry/geometries2d.h
 
 typedef double D;
 typedef complex<D> P;  // Point

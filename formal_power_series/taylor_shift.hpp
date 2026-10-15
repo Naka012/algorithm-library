@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/taylor_shift.hpp
+// 出典 (fft, fft_inv): https://github.com/atcoder/ac-library/blob/v1.3/atcoder/convolution.hpp
 
 /* f(x) -> f(x + c)*/
 

@@ -1,4 +1,8 @@
 // https://github.com/Naka012/algorithm-library/blob/main/integer/miller_rabin.hpp
+// 出典 (namespace internal): https://github.com/NyaanNyaan/library/blob/master/internal/internal-type-traits.hpp
+// 出典 (namespace internal): https://github.com/NyaanNyaan/library/blob/master/internal/internal-math.hpp
+// 出典 (ArbitraryLazyMontgomeryModInt): https://github.com/NyaanNyaan/library/blob/master/modint/arbitrary-montgomery-modint.hpp
+// 出典 (namespace fast_factorize): https://github.com/NyaanNyaan/library/blob/master/prime/miller-rabin.hpp
 
 /*
 miller rabin primality test

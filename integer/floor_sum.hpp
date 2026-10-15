@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/integer/floor_sum.hpp
+// 出典: https://github.com/atcoder/ac-library/blob/v1.3/atcoder/math.hpp
 
 ll floor_sum(ll n, ll m, ll a, ll b) {
     ll ret = 0;

@@ -1,4 +1,5 @@
 // https://github.com/Naka012/algorithm-library/blob/main/data_structure/union_find.hpp
+// 出典 (groups): https://github.com/atcoder/ac-library/blob/v1.3/atcoder/dsu.hpp
 
 struct UnionFind {
     public : 

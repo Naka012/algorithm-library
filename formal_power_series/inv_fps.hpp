@@ -1,4 +1,6 @@
 // https://github.com/Naka012/algorithm-library/blob/main/formal_power_series/inv_fps.hpp
+// 出典 (fft, fft_inv): https://github.com/atcoder/ac-library/blob/v1.3/atcoder/convolution.hpp
+// 出典 (inv_fps): https://github.com/maspypy/library/blob/main/poly/fps_inv.hpp
 
 template<int MOD> struct modint {
     static constexpr int Mod = MOD;

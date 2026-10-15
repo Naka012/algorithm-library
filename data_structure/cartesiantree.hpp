@@ -1,4 +1,4 @@
-// https://github.com/Naka012/algorithm-library/blob/main/data_structure/cartesiantree.hpp
+// 出典: https://github.com/NyaanNyaan/library/blob/master/tree/cartesian-tree.hpp
 
 template <typename T> pair<vector<vector<int>>, int> cartesiantree(vector<T> &a) {
     int N = (int)a.size();
